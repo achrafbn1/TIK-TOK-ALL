@@ -175,7 +175,7 @@ def hotmail():
  #print(msToken)
  #ttwid=a["ttwid"]
  while True:
-  user='qwertyuiopasdfghjklzxcvbnm.'
+  user='qwertyuiopasdfghjklzxcvbnm'
   num='1234567890'
   rng=int("".join(random.choice(num)for i in range(1)))
   usery=str("".join(random.choice(user)for i in range(rng)))
@@ -405,7 +405,7 @@ def aol():
  #print(msToken)
  #ttwid=a["ttwid"]
  while True:
-  user='qwertyuiopasdfghjklzxcvbnm.'
+  user='qwertyuiopasdfghjklzxcvbnm'
   num='1234567890'
   rng=int("".join(random.choice(num)for i in range(1)))
   usery=str("".join(random.choice(user)for i in range(rng)))
@@ -519,7 +519,7 @@ def outlook():
  #print(msToken)
  #ttwid=a["ttwid"]
  while True:
-  user='qwertyuiopasdfghjklzxcvbnm.'
+  user='qwertyuiopasdfghjklzxcvbnm'
   num='1234567890'
   rng=int("".join(random.choice(num)for i in range(1)))
   usery=str("".join(random.choice(user)for i in range(rng)))
