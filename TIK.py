@@ -620,13 +620,6 @@ def outlook():
          		
   except:outlook()
 os.system("clear")
-BRed = '\x1b[1;31m'
-BGreen = '\x1b[1;32m'
-BYellow = '\x1b[1;33m'
-BBlue = '\x1b[1;34m'
-BPurple = '\x1b[1;35m'
-BCyan = '\x1b[1;36m'
-BWhite = '\x1b[1;37m'
 E = '\033[1;31m'
 G = '\033[1;35m'
 Z = '\033[1;31m' #احمر
