@@ -640,12 +640,12 @@ Y = '\033[1;34m' #ازرق فاتح
 M = '\x1b[1;37m'#ابیض
 S = '\033[1;33m'
 U = '\x1b[1;37m'#ابیض
-print (f'''
+print (f''' يتم تحديت الادات عن بعد
 {F}[1] {F}- {A} Gm{Z}ail    
 {F}[2] {F}- {B} Hot{X}mail  
 {F}[3] {F}- {Z} Out{C}look 
 {F}[4] {F}- {X} A{A}o{Z}l 
-{F}[5] {F}- {A} out{X}lo{B}ok ''')
+{F}[5] {F}- {A} o{Z}ut{X}lo{B}ok ''')
 choi=input(f"\n{F} {X}Ta{C}ke {Y}Num{Z}ber {F}:")
 if choi=='1':
 	if "__main__" ==__name__:
