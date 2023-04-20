@@ -530,7 +530,7 @@ print (f'''
 {F}[1] {F}- {A} Gm{Z}ail    
 {F}[2] {F}- {B} Hot{X}mail  
 {F}[3] {F}- {Z} Out{C}look 
-{F}[4] {F}- {X} A{A}o{Z}l  ''')
+{F}[4] {F}- {X} A{A}o{Z}l   قيد التطوير ''')
 choi=input(f"\n{F} {X}Ta{C}ke {Y}Num{Z}ber {F}:")
 if choi=='1':
 	if "__main__" ==__name__:
