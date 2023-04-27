@@ -55,24 +55,7 @@ colors = ['red','yellow','white','green']
 
 choice =random.choice(colors)
 name = render('BRIWA',colors=[choice],align='center')
-#----------Auto stop Onlign-------------#
-import requests
-import os
-import webbrowser
-webbrowser.open('https://t.me/P_P_PX')
-url = requests.get('https://remot-tiktok.achrafbenaicha.repl.co').text
 
-if "bn" in url:
- os.system('clear')
-else:
- aa = '''
-
-تم إيقاف الأداه راسل المطور @P_P_PX
-
-   '''
- print(aa)
- exit()
-print('')
 
 colors = ['red','yellow','white','green']
 
