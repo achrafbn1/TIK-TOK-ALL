@@ -20,20 +20,18 @@ import requests
 import os
 import webbrowser
 webbrowser.open('https://t.me/P_P_PX')
+
 url = requests.get('https://remot-tiktok.achrafbenaicha.repl.co').text
 
 if "bn" in url:
  os.system('clear')
 else:
- aa = '''
-
-تم إيقاف الأداه راسل المطور @P_P_PX
-
-   '''
- print(aa)
+ bb = """
+ تم توقيف الادات من طرف المطور @P_P_PX
+ """
+ print(bb)
  exit()
 print('')
-
 colors = ['red','yellow','white','green']
 
 choice =random.choice(colors)
