@@ -50,6 +50,7 @@ S = '\033[1;33m'
 j = '\033[2;35m' #وردي
 import cfonts 
 from cfonts import render
+
 import requests
 import os
 
@@ -64,7 +65,6 @@ else:
  print(bb)
  exit()
 print('')
-
 colors = ['red','yellow','white','green']
 
 choice =random.choice(colors)
