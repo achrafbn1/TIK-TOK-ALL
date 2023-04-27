@@ -43,7 +43,7 @@ nt=0
 ag=0
 ng=0
 briw = print("	الاداه لسة تحت التطوير + توقف أمر من المبرمج @P_P_PX")
-      choice =random.choice(briw)
+
 
 print(f"	    	    {F}[✓]{X} Get {F}Avail{B}ables {Y}Tik{j}Tok")
 print(f"{Z}—---{X}—-{F}—-{C}-—{B}—-{Y}—-{E}—-{Z}—-{X}—-{F}—-{C}—-{B}—-{Y}—-{E}—-{Z}—-{X}—-{F}-—{Z}—---{X}—-{F}—-{C}-—{B}—-{Y}—-{E}—-{Z}—-{X}—-{F}—-{C}—-{B}—-{Y}—-{E}—-{Z}—-{X}—-{F}-—{C}")
