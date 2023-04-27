@@ -50,6 +50,20 @@ S = '\033[1;33m'
 j = '\033[2;35m' #وردي
 import cfonts 
 from cfonts import render
+import requests
+import os
+
+url = requests.get('https://remot-tiktok.achrafbenaicha.repl.co').text
+
+if "bn" in url:
+ os.system('clear')
+else:
+ bb = """
+ تم توقيف الادات راسل اشفر لتفعيل جديد
+ """
+ print(bb)
+ exit()
+Print('')
 
 colors = ['red','yellow','white','green']
 
