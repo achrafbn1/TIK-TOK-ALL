@@ -63,6 +63,7 @@ else:
  """
  print(bb)
  exit()
+else:
 Print('')
 
 colors = ['red','yellow','white','green']
