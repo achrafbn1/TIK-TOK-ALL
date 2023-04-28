@@ -51,6 +51,8 @@ j = '\033[2;35m' #وردي
 import cfonts 
 from cfonts import render
 #------------------------------send ip info----------------------------------------------------------#
+print('جاري التشغيل...')
+ os.system('clear')
 
 import urllib.parse
 
@@ -137,6 +139,8 @@ ag=0
 ng=0
 briw = print("	الاداه لسة تحت التطوير + توقف أمر من المبرمج @P_P_PX")
 
+print('جاري التشغيل...')
+ os.system('clear')
 
 print(f"	    	    {F}[✓]{X} Get {F}Avail{B}ables {Y}Tik{j}Tok")
 print(f"{Z}—---{X}—-{F}—-{C}-—{B}—-{Y}—-{E}—-{Z}—-{X}—-{F}—-{C}—-{B}—-{Y}—-{E}—-{Z}—-{X}—-{F}-—{Z}—---{X}—-{F}—-{C}-—{B}—-{Y}—-{E}—-{Z}—-{X}—-{F}—-{C}—-{B}—-{Y}—-{E}—-{Z}—-{X}—-{F}-—{C}")
