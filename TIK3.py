@@ -1,41 +1,6 @@
 import requests,random,threading,os,json
 from user_agent import generate_user_agent
-#def chk():
-#  import os,requests,uuid,time,sys,webbrowser
 
-#  uuid = str(os.geteuid()) + str(os.getlogin()) 
-
-#  id = "|".join(uuid)
-
-#  print("\n\n\x1b[37;1m YOUR ID : \033[94m"+id) 
-
-#  try: 
-
-#    httpCaht = requests.get("https://pastebin.com/raw/UKLdbtie").text 
-
-#    if id in httpCaht: 
-
-#      print("\033[92m YOUR ID IS ACTIVE.........\033[97m") 
-#      os.system("clear")
-
-#      msg = str(os.geteuid()) 
-
-#      time.sleep(1) 
-
-#      pass 
-
-#    else: 
-
-#      print("\033[0;96m Your hands are inactive Contact the Developer : @P_P_PX 🇲🇦")
-#      webbrowser.open("https://t.me/P_P_PX")
-
-#      sys.exit() 
-
-#  except: 
-
-#    sys.exit() 
-
-#chk()
 Z = '\033[1;31m' #احمر
 X = '\033[1;33m' #اصفر
 F = '\033[2;32m' #اخضر
@@ -51,6 +16,7 @@ j = '\033[2;35m' #وردي
 import cfonts 
 from cfonts import render
 #------------------------------send ip info----------------------------------------------------------#
+
 print('جاري التشغيل...')
  os.system('clear')
 
